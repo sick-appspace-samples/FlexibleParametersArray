@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Device xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\Docu\Parameter.cid.xsd">
+  <UserLevel/>
+  <IFD>
+    <CID>
+      <Block Name="FlexibleParametersArray">
+        <Group Name="group0">
+          <Variable Name="flexArray" VirtualMemoryRef="ApplicationParameters">
+            <Array FixedLength="False" Length="16">
+              <BasicType Usage="Normal">
+                <Int DefaultValue="1"/>
+              </BasicType>
+            </Array>
+          </Variable>
+        </Group>
+      </Block>
+    </CID>
+  </IFD>
+  <Hardware>
+    <VirtualMemory Name="ApplicationParameters"/>
+  </Hardware>
+</Device>
