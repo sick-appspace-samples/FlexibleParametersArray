@@ -1,5 +1,6 @@
 ## FlexibleParametersArray
 Using Parameters arrays of variable length
+
 ### Description
 This sample shows how to proceed with usage of Parameters arrays of unfixed length
 in lua script. It uses the Parameters to create a definition of new array, which
@@ -12,5 +13,6 @@ related to handling the arrays from Parameters.
 ### HowToRun
 To demo this sample, it must be loaded to any device or the emulator. The output
 of the consumer function can be seen at the console.
+
 ### Topics
 Programming-Pattern, Parameters, Sample, SICK-AppSpace
