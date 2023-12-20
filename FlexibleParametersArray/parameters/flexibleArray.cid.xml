@@ -4,11 +4,11 @@
   <IFD>
     <CID>
       <Block Name="FlexibleParametersArray">
-        <Group Name="group0">
+        <Group Name="MyArrays">
           <Variable Name="flexArray" VirtualMemoryRef="ApplicationParameters">
             <Array FixedLength="False" Length="16">
               <BasicType Usage="Normal">
-                <Int DefaultValue="1"/>
+                <Int DefaultValue="0"/>
               </BasicType>
             </Array>
           </Variable>
